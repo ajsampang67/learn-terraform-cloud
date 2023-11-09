@@ -1,12 +1,12 @@
 terraform {
 
-  cloud {
-    organization = "iac-terraform-training"
+  # cloud {
+  #   organization = "iac-terraform-training"
 
-    workspaces {
-      name = "learn-terraform-cloud"
-    }
-  }
+  #   workspaces {
+  #     name = "learn-terraform-cloud"
+  #   }
+  # }
 
   required_providers {
     aws = {
